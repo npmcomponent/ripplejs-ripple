@@ -1,22 +1,17 @@
 {
-  "name": "ripplejs",
+  "name": "ripplejs-ripple",
   "version": "0.3.3",
-  "description": "Minimal reactive views for building user interfaces",
-  "main": "dist/ripple.js",
-  "devDependencies": {
-    "karma": "~0.12.1",
-    "karma-mocha": "~0.1.3",
-    "karma-coverage": "~0.2.1",
-    "karma-script-launcher": "~0.1.0",
-    "karma-phantomjs-launcher": "~0.1.2",
-    "karma-chrome-launcher": "~0.1.2",
-    "karma-firefox-launcher": "~0.1.3",
-    "karma-safari-launcher": "~0.1.1",
-    "mocha-phantomjs": "~3.3.2",
-    "jshint": "~2.4.4",
-    "component": "~0.19.7",
-    "bump": "git://github.com/ianstormtaylor/bump",
-    "minify": "~0.2.6",
-    "bfc": "~0.1.0"
+  "main": "lib/index.js",
+  "dependencies": {
+    "anthonyshort-attributes": "git://github.com/npmcomponent/anthonyshort-attributes.git",
+    "anthonyshort-dom-walk": "git://github.com/npmcomponent/anthonyshort-dom-walk.git",
+    "anthonyshort-is-boolean-attribute": "git://github.com/npmcomponent/anthonyshort-is-boolean-attribute.git",
+    "anthonyshort-raf-queue": "git://github.com/npmcomponent/anthonyshort-raf-queue.git",
+    "component-domify": "git://github.com/npmcomponent/component-domify.git",
+    "component-each": "git://github.com/npmcomponent/component-each.git",
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git",
+    "ripplejs-interpolate": "git://github.com/npmcomponent/ripplejs-interpolate.git",
+    "ripplejs-path-observer": "git://github.com/npmcomponent/ripplejs-path-observer.git",
+    "yields-uniq": "git://github.com/npmcomponent/yields-uniq.git"
   }
 }
